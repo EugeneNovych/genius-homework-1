@@ -1,0 +1,147 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Bold.woff2') format('woff2'),
+        url('../fonts/Roboto-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Regular.woff2') format('woff2'),
+        url('../fonts/Roboto-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Play';
+    src: url('../fonts/Play-Bold.woff2') format('woff2'),
+        url('../fonts/Play-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Play';
+    src: url('../fonts/Play-Regular.woff2') format('woff2'),
+        url('../fonts/Play-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+:root {
+    --color-brand-light: #2B7FFF;
+    --color-brand-dark: #011C44;
+    --color-text-dark: #000000;
+    --color-text-light: #FFFFFF;
+}
+
+
+/* Base */
+body {
+    color: var(--color-text-dark);
+    /* font-family: 'Roboto' sans-serif;
+    font-weight: 400;
+    font-size: 22px; */
+    text-decoration: none;
+}
+body .accent-text {
+    color: var(--color-brand-light);
+}
+ul {
+    list-style-type: none;
+}
+footer {
+    color: var(--color-text-light);
+    background-color: var(--color-brand-dark);
+}
+h1 {
+    color: var(--color-brand-dark);
+    font-family: 'Play';
+    font-weight: 700;
+    font-size: 140px;
+
+}
+
+h3 {
+    color: #4A4A4A;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 12px;
+
+}
+p {
+    font-family: 'Roboto';
+    font-weight: 400;
+}
+/* Button */
+
+.button {
+    color: var(--color-text-light);
+    border: 2px solid var(--color-brand-light);
+    border-radius: 32px;
+    background-color: var(--color-brand-light);
+    cursor: pointer;
+    width: 232px;
+    height: 56px;
+        font-family: 'Roboto';
+            font-weight: 600;
+            font-size: 18px;
+
+}
+.button:hover{
+    background-color: transparent;
+    color: var(--color-brand-dark);
+    border: 2px solid var(--color-brand-light);
+}
+
+/* Link */
+.link {
+    color: var(--color-brand-dark);
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 18px;
+}
+.link:hover {
+    color: var(--color-brand-light);
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.link-footer {
+    color: var(--color-text-light);
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-weight: 400;
+}
+.link-footer:hover {
+    color: var(--color-brand-light);
+    font-family: 'Roboto';
+    font-weight: 700;
+}
+
+/* Advantages section */
+.section-title {
+    color: var(--color-brand-dark);
+        font-family: 'Play';
+        font-weight: 700;
+        font-size: 64px;
+}
+
+/* .images-procedures {
+display: inline-flex;
+ /* flex-wrap: wrap;
+justify-content: center;
+} */
+
+/* Footer */
+.fa {
+text-decoration: none;
+}
